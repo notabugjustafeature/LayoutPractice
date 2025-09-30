@@ -1,0 +1,50 @@
+html {
+    scrollbar-width: none;
+    background: linear-gradient(to right,  #b89900 0%,#ffc003 4%,#ffd667 100%);
+}
+
+header{
+    text-align: center;
+    font-style: italic
+}
+
+main {
+    text-align: center;
+    overflow: auto;
+    width: 800px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+div#cheese img{
+    height: 75px;
+    width: 100px;
+    display: block;
+    border-radius: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 125px;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    font-family: Arial, sans-serif;
+}
+div#about img {
+    border-radius: 25px
+}
+
+footer {
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 100px;
+    user-select: none;
+}
